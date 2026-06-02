@@ -8,7 +8,7 @@ I'm currently looking to focus on product engineering — TypeScript, React, Nex
 
 ---
 
-### [experiment-hub-frontend](https://github.com/juancuiule/experiment-hub-frontend)
+### [experiment-hub](https://github.com/juancuiule/experiment-hub)
 
 An adaptive experiment runner for behavioral research. Researchers face a real tradeoff: drag-and-drop tools like Qualtrics fall apart on complex adaptive designs (multi-level loops, weighted random assignment, composite branching across responses), and custom code makes every new study a new project. experiment-hub sits in between — a typed graph schema for branching, looping, and randomized flows, with a React participant UI and a **static validator that catches misconfigured experiments at build time** rather than mid-study.
 
