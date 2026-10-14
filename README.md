@@ -8,6 +8,9 @@ I'm currently looking to focus on product engineering — TypeScript, React, Nex
 
 ---
 
+<details>
+  <summary>Projects</summary>
+
 ### [experiment-hub](https://github.com/juancuiule/experiment-hub)
 
 An adaptive experiment runner for behavioral research. Researchers face a real tradeoff: drag-and-drop tools like Qualtrics fall apart on complex adaptive designs (multi-level loops, weighted random assignment, composite branching across responses), and custom code makes every new study a new project. experiment-hub sits in between — a typed graph schema for branching, looping, and randomized flows, with a React participant UI and a **static validator that catches misconfigured experiments at build time** rather than mid-study.
@@ -47,12 +50,12 @@ Another graph-based scrollytelling piece, with a different visual treatment and 
 A 3D render service for the book catalogue. HTTP API that takes a list of book slugs and layout parameters, hashes them, and (on a cache miss) spawns Blender headlessly to render six camera frames per request. Each frame goes through separate color and shadow passes, which ImageMagick composites and tiles into a single PNG before streaming it back. The whole pipeline — Fastify server, Blender Python script driving UV mapping and per-armature dimensions from a JSON catalogue, ImageMagick compositing, content-addressed caching — is the kind of thing I like building: not glamorous, but a clean seam through unrelated tools. The frontend that drives it is a small UI prototyped with v0. *(Code lives in the eglc org — will be made public.)*
 
 `TypeScript` · `Fastify` · `Blender (Python)` · `ImageMagick`
-
-### Other experiments
-
+</details>
+<details>
+  <summary>Other experiments</summary>
 - [**eglc-moravec**](https://github.com/juancuiule/eglc-moravec) — Frontend for Moravec, El Gato y La Caja's flagship behavioral experiment platform.
 - [**random**](https://github.com/juancuiule/random) — A personal sandbox for generative art. Includes the code behind my [fxhash](https://www.fxhash.xyz/) drops (*bouba*, *gelatina*, *fxnets*), along with sketches, talk slides, and the scaffolding I reuse across projects. Structured as a pnpm workspace, each project ships independently.
-
+</details>
 ---
 
 ### Teaching
