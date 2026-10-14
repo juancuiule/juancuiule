@@ -56,6 +56,7 @@ A 3D render service for the book catalogue. HTTP API that takes a list of book s
 - [**eglc-moravec**](https://github.com/juancuiule/eglc-moravec) — Frontend for Moravec, El Gato y La Caja's flagship behavioral experiment platform.
 - [**random**](https://github.com/juancuiule/random) — A personal sandbox for generative art. Includes the code behind my [fxhash](https://www.fxhash.xyz/) drops (*bouba*, *gelatina*, *fxnets*), along with sketches, talk slides, and the scaffolding I reuse across projects. Structured as a pnpm workspace, each project ships independently.
 </details>
+
 ---
 
 ### Teaching
