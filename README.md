@@ -8,8 +8,7 @@ I'm currently looking to focus on product engineering — TypeScript, React, Nex
 
 ---
 
-<details>
-  <summary>Projects</summary>
+## Projects
 
 ### [experiment-hub](https://github.com/juancuiule/experiment-hub)
 
@@ -50,12 +49,10 @@ Another graph-based scrollytelling piece, with a different visual treatment and 
 A 3D render service for the book catalogue. HTTP API that takes a list of book slugs and layout parameters, hashes them, and (on a cache miss) spawns Blender headlessly to render six camera frames per request. Each frame goes through separate color and shadow passes, which ImageMagick composites and tiles into a single PNG before streaming it back. The whole pipeline — Fastify server, Blender Python script driving UV mapping and per-armature dimensions from a JSON catalogue, ImageMagick compositing, content-addressed caching — is the kind of thing I like building: not glamorous, but a clean seam through unrelated tools. The frontend that drives it is a small UI prototyped with v0. *(Code lives in the eglc org — will be made public.)*
 
 `TypeScript` · `Fastify` · `Blender (Python)` · `ImageMagick`
-</details>
-<details>
-  <summary>Other experiments</summary>
+
+## Other experiments
 - [**eglc-moravec**](https://github.com/juancuiule/eglc-moravec) — Frontend for Moravec, El Gato y La Caja's flagship behavioral experiment platform.
 - [**random**](https://github.com/juancuiule/random) — A personal sandbox for generative art. Includes the code behind my [fxhash](https://www.fxhash.xyz/) drops (*bouba*, *gelatina*, *fxnets*), along with sketches, talk slides, and the scaffolding I reuse across projects. Structured as a pnpm workspace, each project ships independently.
-</details>
 
 ---
 
